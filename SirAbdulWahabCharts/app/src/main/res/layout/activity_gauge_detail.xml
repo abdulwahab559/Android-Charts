@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    tools:context="abdulwahab.sirabdulwahabcharts.activities.GaugeDetailActivity">
+
+    <de.nitri.gauge.Gauge
+        android:id="@+id/gauge"
+        gauge:initialValue="0"
+        gauge:maxValue="100"
+        gauge:minValue="-100"
+        gauge:totalNicks="220"
+        gauge:valuePerNick="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
